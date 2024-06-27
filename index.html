@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required Meta Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Additional Information -->
+    <meta name="author" content="Fizza Omer | fomer19 on GitHub">
+    <meta name="description" content="This website focuses on maximum-width containers for Lab 01 in DMIT1530.">
+
+    <title>XYZ Power</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer=""></script>
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="flex-container button-container">
+                <button>Outage Center</button>
+                <button>Pay Your Bill</button>
+                <button>Start, Stop, Move Service</button>
+                <button>Contact Us</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="all">
+        <h1>XYZ Power</h1>
+        <nav>
+            <ul class="links">
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="your-home.html">Your Home</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+        </nav>
+        </section>
+        <div class="windmill"></div>
+        <div class="index-options">
+            <div>
+                <button>Login/Register to MyAccount</button>
+                <button>Billing & Payment Options</button>
+                <button>Clean & Green Initiative</button>
+                <button>Customer Service</button>
+                <button>Report an Outage</button>
+                <button>View Live Outage Map</button>
+            </div>
+        </div>
+        <section class="energy">
+            <h2>Today's energy stats</h2>
+            <p>Where is your electricity coming from?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At iste delectus expepturi atque laborum! Temporibus, deserunt quo nostrum quam sequi consequuntur tempore sunt laboriosam, quos beatae ut, unde accusantium voluptates.</p>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+            <div id="app">
+                <donut-chart v-bind="{ initialValues: values, colors: colors }"></donut-chart>
+                <bar-chart v-bind="{ values: values, colors: colors }"></bar-chart>
+            </div>                                                                
+            <script type="text/x-template" id="donutTemplate">
+                <svg height="200" width="200" viewBox="0 0 200 200" class="donut-chart">
+                  <text x="100" y="100" text-anchor="middle" alignment-baseline="middle" class="circle-one">⌃ 24%</text>
+                  <text x="100" y="120" text-anchor="middle" alignment-baseline="middle" font-size="16px" class="circle-two">renewables</text>
+                  <g v-for="(value, index) in sortedValues">
+                    <circle :cx="cx" :cy="cy" :r="radius" :stroke="colors[index]" :stroke-width="strokeWidth" :stroke-dasharray="adjustedCircumference" :stroke-dashoffset="calculateStrokeDashOffset(value, circumference)" fill="transparent" :transform="returnCircleTransformValue(index)" />
+                  </g>
+                </svg>
+            </script>
+            <script type="text/x-template" id="barChartTemplate">
+                <div class="bar-chart">
+                  <div v-for="(value, index) in values" :key="index" class="bar">
+                    <div class="bar-title">{{ titles[index] }}</div> <!-- Title or label above the bar -->
+                    <div class="bar-inner">
+                      <div class="fill" :style="{ width: barWidths[index] + '%', backgroundColor: colors[index] }"></div>
+                      <div class="bar-label-right">{{ value }}</div> <!-- Percentage label on the right -->
+                    </div>
+                  </div>
+                </div>
+              </script>                          
+            <button>Learn More About Today's Power</button>
+        </section>
+        <aside>
+            <div>
+                <h2>BY THE NUMBERS</h2>
+                <p>How we're making a difference</p>
+                <h2>33% less carbon since 2005</h2>
+                <p>We're well ahead of our national goal of a 30% reduction by 2030.</p>
+                <h2>17% wind energy</h2>
+                <p>Our Province has one of the highest integrations of wind in North America.</p>
+                <h2>Up to 140 batteries in homes across the province</h2>
+                <p>We're exploring innovative technology like battery storage to help bring more clean energy to the grid.</p>
+                <h2>61% clean energy by 2022</h2>
+                <p>We are on our way to a greener future for our province.</p>
+                <button>Learn More About Us</button>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <h3>© 2021 XYZ Power.</h3>
+        <nav>
+            <ul>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy Statement</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+          </nav>
+    </footer>
+</body>
+</html>

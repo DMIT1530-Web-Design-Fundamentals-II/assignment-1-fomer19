@@ -1,0 +1,713 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container {
+    background-color: #1E426E;
+    display: flex;
+    justify-content: flex-end;
+}
+.button-container {
+    margin-right: 28rem; 
+    display: flex;
+}
+.button-container button {
+    background-color: #1E426E;
+    color: #fff;
+    border-color: white;
+    height: 2rem;
+    border-top: none;
+    border-bottom: none;
+    text-transform: uppercase;
+}
+.button-container button:hover {
+    background-color: #789F4D;
+    color: white;
+}
+.all {
+    text-transform: uppercase;
+    color: #1E426E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0 2rem;
+}
+.links {
+    list-style-type: none;
+    display: flex;
+    margin: 2.5rem 0 2rem 0;
+    margin-left: -54rem;
+}
+h1 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    margin-left: 12rem;
+}
+.links a{
+    font-size: 1.25rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+.links a:hover{
+    color: #78A04D;
+    text-decoration: underline;
+}
+.windmill{
+    background-image: url(../img/banner-wind.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 24rem;
+}
+.index-options {
+    background-color: #E8F4F9;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.index-options button {
+    background-color: #fff;
+    color: #2A5EA5;
+    border: 1px solid #ebebeb;
+    height: 3.5rem;
+    width: 9rem;
+    margin-right: 1rem;
+    transition: background-color 0.3s ease;
+}
+.index-options button:hover {
+    background-color: #2A5EA5;
+    color: #fff;
+}
+.town{
+    background-image: url(../img/banner-community.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 24rem;
+}
+.house{
+    background-image: url(../img/banner-your-home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 24rem;
+}
+body{
+    font-size: 16px;
+}
+.energy {
+    float: left;
+    width: 38%;
+    height: 52rem;
+    margin: 2rem 1.25rem 0rem 19.5rem;
+    text-align: center;
+    border-style: solid;
+    border-color: #EEF7FB;
+}
+.energy h2{
+    font-size: 2.15rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+.energy p{
+    font-size: 1.25rem;
+    margin: 1rem 2rem 0rem 2rem;
+}
+.energy button:hover{
+    background-color: #E8F4F9;
+    color: #1E426E;
+}
+svg{
+    height: 400px;
+    width: 365px;
+    margin-left: -18rem;
+    margin-top: 2rem;
+}
+text{
+    fill: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: .75rem;
+}
+.circle-one{
+    font-size: 35px;
+}
+.circle-two{
+    font-size: 15px;
+}
+.bar-chart {
+    display: grid;
+    justify-content: space-around;
+    margin-left: 22rem;
+    margin-top: -22rem;
+    height: 20rem;
+} 
+.bar {
+    width: 230px;
+    text-align: center;
+    margin-bottom: 10px; 
+    position: relative;
+}
+.bar-title {
+    position: absolute;
+    top: -1.5rem;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #333;
+}
+.bar-inner {
+    height: 34px;
+    width: 16rem;
+    background-color: #ccc;
+    overflow: hidden;
+    position: relative;
+}
+.fill {
+    height: 100%;
+    width: 0;
+} 
+.bar-label-right {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    height: 100%;
+    line-height: 20px;
+    color: #333;
+    font-size: 1.75rem;
+}
+.energy button {
+    background-color: #1E426E;
+    color: #fff;
+    height: 3rem;
+    width: 17rem;
+    font-size: 1.05rem;
+    margin-top: 2rem;
+}
+aside {
+    float: left;
+    width: 22%;
+    background-color: #F5F5F5;
+    text-align: center;
+    margin: 2rem 0rem 2rem 0rem;
+}
+aside div{
+    width: 22rem;
+    margin: 2rem 0rem 2rem 2rem;
+}
+aside h2{
+    font-size: 2rem;
+    line-height: normal;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+aside p{
+    font-size: 1.1rem;
+}
+aside button {
+    background-color: #1E426E;
+    color: #fff;
+    height: 2.5rem;
+    width: 11rem;
+    margin-top: 1rem;
+}
+.community{
+    width: 58rem;
+    margin-left: 27rem;
+    margin-bottom: 3rem;
+}
+.community h2{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.community-para{
+    line-height: 1.2rem;
+}
+.community-slogan{
+    font-weight: bold;
+}
+.community-tiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 3rem 18rem;
+}
+.community-t {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.community-t img {
+    width: 25rem;
+}
+.community-t h3 {
+    background-color: #1E426E;
+    color: #fff;
+    height: 3rem;
+    font-size: 1.5rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+}
+.community-t h3:hover{
+    background-color: #2A5EA5;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.inner-wrapper {
+    display: flex;
+    gap: 20px;
+}
+.text-container {
+    max-width: 600px; 
+    text-align: left;
+}
+.text-container p {
+    line-height: 1.6;
+}
+.text-container a {
+    color: #1C549F;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.text-container a:hover{
+    color: #78A04D;
+}
+.help {
+    text-align: center;
+    background-color: #F5F5F5;
+    height: 15rem;
+}
+.help h2{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.help-option {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    text-align: center;
+    width: 17rem;
+}
+.help-option p{
+    color: #001C80;
+}
+.info-tiles{
+    display: flex;
+}
+.info-tiles h3{
+    background-color: #1E426E;
+    color: #fff;
+    height: 2.5rem;
+}
+.tile img{
+    width: 47rem;
+    height: 12rem;
+}
+.tile, .tile-two{
+    margin-right: 1rem;
+}
+.tile-two img{
+    width: 47rem;
+    height: 12rem;
+    margin-right: 2rem;
+}
+.stronger{
+    background-image: url(../img/building-stronger.png);
+    height: 18rem;
+    background-position: center;
+    background-size: cover;
+}
+.white-box{
+    background-color: rgba(255, 255, 255, 0.835);
+    width: 30rem;
+    height: 15rem;
+    top: 1.5rem;
+    line-height: normal;
+    position: relative;
+    left: 52rem;
+}
+.white-box h2{
+    text-align: center;
+}
+.white-box p{
+    left: 1rem;
+    position: relative;
+}
+.white-box a{
+    left: 1rem;
+    position: relative;
+    text-decoration: none;
+}
+.white-box a:hover{
+    color: #78A04D;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8F4F9;
+    padding: 0 24rem;
+    box-sizing: border-box;
+}
+footer ul {
+    list-style-type: none;
+    display: flex;
+}
+footer nav {
+    color: #1E426E;
+    text-decoration: none;
+    margin-left: -24rem;
+}
+footer a {
+    color: #1E426E;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+footer a:hover{
+    color: #78A04D;
+}
+footer h3 {
+    margin-top: 0.75rem;
+    margin-left: 12rem;
+}
+@media(max-width:800px){
+    .flex-container{
+        background-color: transparent;
+    }
+    .button-container{
+        margin: auto;
+    }
+    .button-container button{
+        width: 12.3rem;
+        height: 6.5rem;
+        font-size: 1.55rem;
+        line-height: 1.8rem;
+        text-transform: uppercase;
+    }
+    .all{
+        display: block;
+        line-height: 0.5rem;
+        height: 7rem;
+        margin-top: 4rem;
+    }
+    .links{
+        margin-left: 5rem;
+    }
+    .index-options{
+        height: 24rem;
+    }
+    .index-options div{
+        margin-left: 6rem;
+        margin-top: -2rem;
+    }
+    .index-options button{
+        width: 17rem;
+        height: 5rem;
+        margin-top: 1.6rem;
+        font-size: 1.2rem;
+    }
+    .energy{
+        border-style: none;
+        border-color: white;
+        margin: 2rem 8.25rem 0rem 7.5rem;
+        width: auto;
+    }
+    .energy button{
+        width: 37rem;
+        font-size: 1.95rem;
+    }
+    aside{
+        background-color: transparent;
+    }
+    aside div {
+        width: 25rem;
+        margin-left: 11rem;
+    }
+    .stronger{
+        width: 48.85rem;
+        height: 27rem;
+    }
+    .white-box{
+        height: 24rem;
+        left: 9rem;
+        top: 1.5rem;
+    }
+    .white-box h2 {
+        font-size: 2.35rem;
+    }
+    .white-box p {
+        font-size: 1.15rem;
+    }
+    .white-box a{
+        font-size: 1.15rem;
+    }
+    .community {
+        width: 35rem;
+        margin-left: 8rem;
+    }
+    .community h2{
+        font-size: 3.2rem;
+    }
+    .community-slogan {
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+    .community-para {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .info-tiles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .tile, .tile-two {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px; 
+    }
+    .tile img, .tile-two img {
+        order: 2;
+        height: 20rem;
+    }
+    .info-tiles h3 {
+        height: 4rem;
+        font-size: 1.53rem;
+    }
+    .help {
+        height: 42rem;
+    }
+    .help-content{
+        display: grid;
+        margin-left: 2rem;
+    }
+    .help-option {
+        height: 10rem;
+        width: 44rem;
+    }
+    .help-option h4, .help-option p{
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    .community-tiles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 1rem;  
+    }
+    .community-tiles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 1rem;
+        padding-top: 5.5rem;
+    } 
+    .community-t {
+        position: relative;
+    }
+    .community-t img {
+        margin-bottom: 3rem;
+    }
+    .community-t h3 {
+        position: absolute;
+        top: -3rem;
+        background-color: #1E426E;
+        padding: 0.5rem; 
+        width: 22.85rem;
+        height: 4rem;
+    }
+    .content-wrapper h2{
+        font-size: 3rem;
+        line-height: normal;
+        margin-bottom: 2rem;
+    }
+    .image-container img{
+        width: 43rem;
+    }
+    .inner-wrapper {
+        flex-direction: column;
+    }  
+    .text-container {
+        order: 2;
+        font-size: 1.5rem;
+        line-height: normal;
+    }  
+    footer{
+        display: grid;
+    }
+    footer h3{
+        margin-left: -22rem;
+        margin-top: 2rem;
+    }
+    footer ul{
+        font-size: 1.5rem;
+        width: 38rem;
+    }
+}
+@media(min-width:801px) and (max-width:1300px){
+    .flex-container{
+        background-color: transparent;
+    }
+    .button-container{
+        margin: auto;
+    }
+    .button-container button{
+        width: 20.2rem;
+        height: 6.2rem;
+        font-size: 1.55rem;
+        line-height: 1.8rem;
+        text-transform: uppercase;
+    }
+    .links{
+        margin-left: 5rem;
+    }
+    .index-options{
+        height: 18rem;
+    }
+    .index-options div{
+        margin-left: 8rem;
+        margin-top: -2rem;
+    }
+    .index-options button{
+        width: 20rem;
+        height: 6rem;
+        margin-top: 1.6rem;
+        font-size: 1.2rem;
+    }
+    .energy{
+        margin: 2rem 8.25rem 0rem 3.5rem;
+    }
+    svg {
+        height: 220px;
+        margin-left: -14rem;
+    }
+    .bar-inner{
+        height: 22px;
+        width: 10rem;
+    }
+    .bar-title{
+        font-size: 0.95rem;
+        text-align: left;
+    }
+    .bar-label-right {
+        top: 2px;
+        height: 100%;
+        line-height: 20px;
+        font-size: 1rem;
+    }
+    .bar-chart{
+        margin-left: 16rem;
+        margin-top: -14rem;
+    }
+    .energy button{
+        height: 6rem;
+        width: 21rem;
+        font-size: 1.95rem;
+        margin-top: 0.1rem;
+        line-height: normal;
+    }
+    aside{
+        margin-left: -2rem;
+        width: 28rem;
+    }
+    aside div {
+        width: 21rem;
+        margin-left: 3rem;
+    }
+    .community-tiles {
+        padding: 3rem 2rem;
+    }
+    .community-t img {
+        width: 24rem;
+    }
+    .community-t h3 {
+        width: 24rem;
+        font-size: 1.15rem;
+        font-weight: 100;
+    }
+    .content-wrapper h2{
+        font-size: 3rem;
+        width: 66rem;
+        line-height: normal;
+        margin-bottom: 2rem;
+    }
+    .text-container p, .text-container a {
+        font-size: 1.5rem;
+        line-height: normal;
+        width: 30rem;
+    }
+    .community {
+        width: 60rem;
+        margin-left: 10rem;
+    }
+    .community h2{
+        font-size: 2.2rem;
+    }
+    .community-slogan {
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+    .community-para {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .info-tiles h3 {
+        height: 4rem;
+        font-size: 1.53rem;
+    }
+    .stronger{
+        width: 80.6rem;
+        height: 23rem;
+    }
+    .white-box{
+        left: 30rem;
+        top: 2rem;
+        width: 48rem;
+        height: 19.5rem;
+    }
+    .white-box h2 {
+        font-size: 2.35rem;
+    }
+    .white-box p {
+        font-size: 1.55rem;
+    }
+    .white-box a{
+        font-size: 1.15rem;
+    }
+    .help {
+        height: 23rem;
+    }
+    .help-content{
+        display: flex;
+        margin-left: 15rem;
+    }
+    .help-option {
+        height: 15rem;
+        width: 16rem;
+    }
+    .help-option h4, .help-option p{
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    footer{
+        display: flex;
+    }
+    footer h3{
+        margin-left: -22rem;
+        margin-top: 2rem;
+    }
+    footer ul{
+        font-size: 1.5rem;
+        width: 38rem;
+        left: 22rem;
+        position: relative;
+    }
+}
